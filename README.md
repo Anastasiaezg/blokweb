@@ -58,6 +58,9 @@ https://www.snickers.com/
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Sommige afbeeldingen bewegen een kleinbeetje
+  - Website gebruikt geen complexe afbeeldingen of tekst
+  - Video kan gestopt worden in de website
 
 </details>
 
