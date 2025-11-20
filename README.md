@@ -40,11 +40,12 @@ https://www.snickers.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
  Homepage  
-  <img src=""homepage.png"" width="375px" alt="Home page van Snickers">
+ <img src="readme-images/homepage.png" width="375px" alt="homepage van de website snickers">
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
  About Page
-  <img src="readme-images/aboutpage.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/aboutpage.png" width="375px" alt="aboutpage van de website snickers">
  
 </details>
 
