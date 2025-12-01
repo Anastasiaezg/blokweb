@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Anastasia Gudovic
+Anastasia Gudovic
 
   #### Je startniveau:
  Blauw
 
   #### Je focus:
- Surface plane
+  surface plane
  
 </details>
 
@@ -36,16 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-https://www.snickers.com/
+  Ik ga de website https://www.snickers.com/ namaken
 
   #### Screenshot(s) van de eerste pagina (small screen): 
- Homepage  
- <img src="readme-images/homepage.png" width="375px" alt="homepage van de website snickers">
- 
+ Homepagina 
+ <img src="readme-images/homepage.png" width="375px" alt="homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
- About Page
-  <img src="readme-images/aboutpage.png" width="375px" alt="aboutpage van de website snickers">
+Aboutpage 
+ <img src="readme-images/aboutpage.png" width="375px" alt="aboutpage">
  
 </details>
 
@@ -58,9 +57,6 @@ https://www.snickers.com/
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  - Sommige afbeeldingen bewegen een kleinbeetje
-  - Website gebruikt geen complexe afbeeldingen of tekst
-  - Video kan gestopt worden in de website
 
 </details>
 
@@ -98,11 +94,11 @@ https://www.snickers.com/
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Kris                  | Eme                | Scott        | Yuzhong          |
-  | ---                   | ---                | ---          | ---              |
-  | Zoekbalk,             | en dit             | en ik dit    | en dan ik dat    |
-  |  Is voor              | dit als er tijd is | nog een punt | dit wil ik zeker |
-  |  De rest goed onderweg| ...                | ...          | ...              |
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
