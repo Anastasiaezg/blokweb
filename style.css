@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #410c00;
+  --secondary-color: #210082;
+  --color-text: #ffffff;
+  --color-text2: #410c00;
+  --color-text3: #210082;
+  --background-color: #f0b243;
+  --background-color2: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  font-family: "SnickersDisplay";
+}
+
+@font-face {
+  font-family: "SnickersDisplay";
+  src: url("font/SnickersSansDisplay-Epic_0.woff") format("woff");
+  font-weight: 700;
+}
+
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2,
+h3 {
+  color: black;
+  font-family: "SnickersDisplay";
+  font-size: 2.5em;
+}
+
+/* Header  (Hulp van derde jaar)*/
+
+header {
+  background-color: var(--primary-color);
+}
+
+header img {
+  width: 3em;
+}
+
+header nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+}
+
+header nav button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+header nav button span {
+  display: block;
+  width: 2.3em;
+  height: 5px;
+  background-color: var(--background-color2);
+}
+
+main {
+  position: relative;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 4.5em;
+  left: 0;
+  width: 100%;
+  height: 46em;
+  background-color: var(--primary-color);
+  padding: 1em;
+  gap: 2em;
+  transform: translateX(100vw);
+  transition: 0.5s;
+  z-index: 2;
+}
+
+header nav ul.active {
+  transform: translateX(0);
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+footer {
+  background-color: var(--primary-color);
+}
+
+
+
+header li a:hover {
+  color: var(--background-color);
+}
+
+/****************/
+/* Eerste Pagina*/
+/****************/
+
+img {
+  width: 1em;
+}
+
