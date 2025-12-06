@@ -3,7 +3,6 @@
   --secondary-color: #210082;
   --color-text: #ffffff;
   --color-text2: #410c00;
-  --color-text3: #210082;
   --background-color: #f0b243;
   --background-color2: #ffffff;
   --background-button: #ff1a1a;
@@ -18,7 +17,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  color: white;
+  color: var(--color-text);
   font-family: "SnickersDisplay";
 }
 
@@ -48,14 +47,9 @@ li {
   list-style-type: none;
 }
 
-h2,
-h3 {
-  color: black;
-  font-family: "SnickersDisplay";
-  font-size: 2.5em;
-} /* later verwijderen*/
-
-/* Header  (Hulp van derde jaar)*/
+body.active {
+  overflow: hidden;
+}
 
 header {
   background-color: var(--primary-color);
@@ -63,6 +57,10 @@ header {
 
 header img {
   width: 4em;
+}
+
+header img:hover {
+  animation: wiggle 1s infinite ease-in-out;
 }
 
 header nav {
@@ -74,6 +72,7 @@ header nav {
   padding: 1em;
 }
 
+/* Header- hamburgermenu (Hulp van derde jaar) */
 header nav button {
   display: flex;
   flex-direction: column;
@@ -87,7 +86,7 @@ header nav button {
 header nav button span {
   display: block;
   width: 2.3em;
-  height: 5px;
+  height: 0.4em;
   background-color: var(--background-color2);
 }
 
@@ -100,15 +99,17 @@ header nav ul {
   width: 100%;
   height: 46em;
   background-color: var(--primary-color);
-  padding: 1em;
+  padding: 2em;
   gap: 2em;
   transform: translateX(100vw);
   transition: 0.5s;
   z-index: 2;
+  visibility: hidden; /* komt van chat.gtp "hoe zorg ik ervoor dat mijn hamburgermenu niet steeds meebeweegt? */
 }
 
 header nav ul.active {
   transform: translateX(0);
+  visibility: visible;
 }
 
 header nav ul li {
@@ -121,13 +122,13 @@ header li a:hover {
 }
 
 /****************/
-/* Eerste Pagina*/
+/* Eerste Pagina */
 /****************/
 
 section:nth-of-type(1) {
   display: grid;
-  grid-template-columns: repeat(1fr 1fr);
-  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: var(--primary-color);
 }
 
 section:nth-of-type(1) video {
@@ -170,7 +171,8 @@ section:nth-of-type(1) a {
   border-radius: 2em;
 }
 
-/* hulp van studentenassistent*/
+/* hulp van studentenassistent */
+
 section:nth-of-type(2) {
   display: grid;
   background-color: var(--primary-color);
@@ -180,10 +182,10 @@ section:nth-of-type(2) {
   gap: 2em;
 }
 
-
 section:nth-of-type(2) img {
   width: 100%;
   height: auto;
+  animation: floating 2s infinite alternate ease-in-out;
 }
 
 section:nth-of-type(2) h2 {
@@ -196,7 +198,6 @@ section:nth-of-type(2) h2 {
 section:nth-of-type(2) span {
   display: block;
   font-size: 0.3em;
-  font-weight: 300;
   padding-bottom: 1em;
   font-family: "SnickersText", sans-serif;
 }
@@ -211,7 +212,109 @@ section:nth-of-type(2) a {
   margin-top: 2em;
 }
 
-/* hulp van studentenassistent*/
+section:nth-of-type(3) li {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+section:nth-of-type(3) {
+  padding: 3em;
+}
+
+section:nth-of-type(3) h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  color: var(--color-text2);
+  text-align: center;
+}
+
+section:nth-of-type(3) img {
+  width: 50%;
+  height: auto;
+}
+
+section:nth-of-type(3) h3 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  color: var(--color-text2);
+  padding: 0.4em;
+}
+
+section:nth-of-type(3) h3 span {
+  display: block;
+  color: var(--color-text2);
+}
+
+section:nth-of-type(3) a {
+  display: block;
+  font-size: 1em;
+  width: max-content;
+  background: var(--secondary-color);
+  padding: 0.9em 3em;
+  border-radius: 2em;
+}
+
+section:nth-of-type(4) {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+
+section:nth-of-type(4) img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: auto;
+}
+
+section:nth-of-type(4) div {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  color: var(--color-text);
+  align-items: center;
+}
+
+section:nth-of-type(4) h2 {
+  font-size: 2.7em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  color: var(--color-text);
+  text-align: center;
+}
+
+section:nth-of-type(4) span {
+  display: block;
+  font-size: 0.3em;
+  padding-bottom: 1em;
+  font-family: "SnickersText", sans-serif;
+}
+
+section:nth-of-type(4) p {
+  display: block;
+  font-size: 0.8em;
+  padding-bottom: 1em;
+  font-family: "SnickersText", sans-serif;
+  text-align: center;
+}
+
+section:nth-of-type(4) a {
+  display: block;
+  font-size: 0.8em;
+  width: max-content;
+  background: var(--secondary-color);
+  padding: 1em 2em;
+  border-radius: 2em;
+}
+
+/* hulp van studentenassistent */
 @media (width < 650px) {
   section:nth-of-type(2) {
     display: flex;
@@ -224,55 +327,214 @@ figure img {
   height: auto;
 }
 
+/****************/
+/* Tweede Pagina */
+/****************/
+
+.secondpage section {
+  background-color: var(--background-color2);
+  display: grid;
+  gap: 1em;
+}
+
+.secondpage section:nth-of-type(2) {
+  grid-template-columns: 1fr;
+}
+
+.secondpage section p {
+  text-align: left;
+  color: var(--color-text2);
+  font-family: "SnickersText", sans-serif;
+  font-size: 1em;
+}
+
+.secondpage section h3 {
+  color: var(--secondary-color);
+  font-size: 2.5em;
+}
+
+.secondpage section:nth-of-type(1) img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: auto;
+  filter: brightness(0.7);
+}
+
+.secondpage section:nth-of-type(1) div {
+  grid-area: 1 / 1;
+  display: flex;
+  padding: 1em;
+  color: var(--color-text);
+  align-items: center;
+}
+
+.secondpage section:nth-of-type(1) h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.secondpage section:nth-of-type(1) p {
+  font-size: 1em;
+  color: var(--color-text);
+}
+
+.secondpage section:nth-of-type(1) span {
+  font-family: "SnickersDisplay";
+}
+
+.secondpage section:nth-of-type(3) img,
+.secondpage section:nth-of-type(5) img,
+.secondpage section:nth-of-type(6) img,
+.secondpage section:nth-of-type(7) img,
+.secondpage section:nth-of-type(8) img {
+  width: 100%;
+  height: auto;
+}
+
+.secondpage section:nth-of-type(2) {
+  padding: 2em;
+}
+
+.secondpage section:nth-of-type(3) h3 {
+  margin-top: -0.4em;
+}
+
+.secondpage section:nth-of-type(3) p {
+  margin-top: -2em;
+}
+
+.secondpage section:nth-of-type(4) {
+  align-items: start;
+}
+
+.secondpage section:nth-of-type(4),
+.secondpage section:nth-of-type(5),
+.secondpage section:nth-of-type(6),
+.secondpage section:nth-of-type(7),
+.secondpage section:nth-of-type(8) {
+  padding: 2em;
+  gap: 1.5em;
+}
+
+.secondpage section:nth-of-type(2) img {
+  animation: none;
+}
+
+.secondpage section:nth-of-type(3) {
+  padding: 2em;
+}
+
+.secondpage nav img {
+  width: 30%;
+  padding-top: 0.5em;
+  margin: 1em;
+}
+
+.secondpage nav {
+  background-color: var(--secondary-color);
+}
+
+.secondpage nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1em;
+  gap: 2em;
+  margin-left: 1em;
+  padding-bottom: 1.9em;
+  padding-top: 1em;
+}
+
+.secondpage nav ul li:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+@media (min-width: 640px) {
+  .secondpage nav {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+  }
+}
+
 footer {
+  padding: 1.5em;
   background-color: var(--primary-color);
 }
 
-section:nth-of-type(3) {
-  padding: 3em;
-  text-align: center;
-}
-
-section:nth-of-type(3) h2 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-  color: var(--color-text2);
-}
-
-section:nth-of-type(3) ul li img {
-  width: 40%;
-  height: auto;
-}
-
-section:nth-of-type(4) {
+footer nav ul {
   display: grid;
-  grid-template-columns: repeat(1fr 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8em;
+  border-top: 0.02em solid var(--background-color2);
+  padding-top: 1em;
 }
 
-section:nth-of-type(4) img {
-  grid-area: 1/1;
-  width: 100%;
-  height: auto;
-
+footer h3 {
+  margin-top: 1em;
+  font-size: 1em;
+  color: var(--color-text);
 }
 
-section:nth-of-type(4) span {
-  display: block;
-  font-size: 0.3em;
-  font-weight: 300;
+footer a {
   font-family: "SnickersText", sans-serif;
-  text-transform: uppercase;
-  color: var(--color-text);
-  margin: 3em;
+  font-size: 0.8em;
 }
 
-section:nth-of-type(4) h2 {
-  grid-area: 1/1;
-  color: var(--color-text);
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-text);
+footer p:nth-of-type(1) {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-family: "SnickersText", sans-serif;
 }
 
+footer p:last-child {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-family: "SnickersText", sans-serif;
+  border-bottom: 0.02em solid var(--background-color2);
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+section a:hover {
+  background: var(--background-button);
+  transition: 1s ease;
+}
+
+/* animaties */
+@keyframes floating {
+  from {
+    transform: translateY(-1em);
+  }
+
+  to {
+    transform: translateY(1em);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
