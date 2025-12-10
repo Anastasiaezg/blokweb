@@ -73,7 +73,7 @@ Aboutpage
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  Bij de Snickers-site staat het logo rechtsboven en verschijnt aan de linkerkant een hamburgermenu wanneer je het scherm op iPhone-formaat bekijkt; daaronder staat een video die je kunt pauzeren of afspelen, met tekst en een button die je doorverwijst naar een ander scherm, gevolgd door verschillende secties met advertenties van Snickers-producten. Helemaal onderin is er een footer.
+  Bij de Snickers-site staat het logo rechtsboven en verschijnt aan de linkerkant een hamburgermenu wanneer je het scherm op iPhone-formaat bekijkt, daaronder staat een video die je kunt pauzeren of afspelen, met tekst en een button die je doorverwijst naar een ander scherm, gevolgd door verschillende secties met advertenties van Snickers-producten. Helemaal onderin is er een footer.
  <img src="readme-images/homepage.png" width="375px" alt="homepage ">
 
   ### dynamisch deel (bijv menu): 
