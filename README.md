@@ -57,6 +57,9 @@ Aboutpage
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Video kan gestopt worden
+  - Elke afbeelding heeft een ALT tekst
+  - Sommige afbeeldingen hebben een animatie
 
 </details>
 
@@ -68,7 +71,7 @@ Aboutpage
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
