@@ -40,7 +40,7 @@ Anastasia Gudovic
 
   #### Screenshot(s) van de eerste pagina (small screen): 
  Homepagina 
- <img src="readme-images/Homepage-snicker.png" width="375px" alt="homepage">
+ <img src="readme-images/homepage-snicker.png" width="375px" alt="homepage">
 
 
 
