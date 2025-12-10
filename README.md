@@ -73,7 +73,7 @@ Aboutpage
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  Bij de Snickers-site staat het logo rechtsboven en verschijnt aan de linkerkant een hamburgermenu wanneer je het scherm op iPhone-formaat bekijkt, daaronder staat een video die je kunt pauzeren of afspelen, met tekst en een button die je doorverwijst naar een ander scherm, gevolgd door verschillende secties met advertenties van Snickers-producten. Helemaal onderin is er een footer.
+  Bij de Snickers-site staat het logo rechtsboven en verschijnt aan de linkerkant een hamburgermenu wanneer je het scherm op iPhone-formaat bekijkt; daaronder staat een video die je kunt pauzeren of afspelen, met tekst en een button die je doorverwijst naar een ander scherm, gevolgd door verschillende secties met advertenties van Snickers-producten. Helemaal onderin is er een footer.
  <img src="readme-images/homepage.png" width="375px" alt="homepage ">
 
   ### dynamisch deel (bijv menu): 
@@ -167,17 +167,15 @@ Ook wilde ik een begin maken aan het hamburgermenu, dus heb ik eerst de oefening
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  - Kijken hoe ik mijn hamburgermenu kan verbeteren 
+  - Hoe ik tekst op afbeelding krijg
 
 
-<!-- nog doen -->
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik had mijn hamburgermenu in de main gezet, deze moet in de nav en heb wat tips gekregen hoe ik dit kan verbeteren
 
 </details>
 
@@ -193,7 +191,21 @@ Ook wilde ik een begin maken aan het hamburgermenu, dus heb ik eerst de oefening
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  <!-- nog doen -->
+De wcag formulier is belangrijk voor het bekijken van de accesibility van mijn website. Ik heb deze ingevuld en nog kleine aanpassingen gedaan waar het kon.
+
+ <img src="readme-images/wcagchechlist-1.png" width="375px" aalt="WCAG checklist">
+
+ <img src="readme-images/wcagchechlist-2.png" width="375px" aalt="WCAG checklist">
+
+
+ <img src="readme-images/wcagchechlist-3.png" width="375px" aalt="WCAG checklist">
+
+
+ <img src="readme-images/wcagchechlist-4.png" width="375px" aalt="WCAG checklist">
+
+
+ <img src="readme-images/wcagchechlist-5.png" width="375px" aalt="WCAG checklist">
+
 
 </details>
 
