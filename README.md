@@ -206,6 +206,8 @@ De wcag formulier is belangrijk voor het bekijken van de accesibility van mijn w
 
  <img src="readme-images/wcagchechlist-5.png" width="375px" aalt="WCAG checklist">
 
+ Tijdens de test kwam ik erachter dat hij bij links alleen links aangaf en niks anders, ik heb toen aria-label toegevoegd zodat screenreaders duidelijk weten waar ze naartoe gaan
+
 
 </details>
 
