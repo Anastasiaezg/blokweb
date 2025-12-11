@@ -62,6 +62,7 @@ Aboutpage
   - Video kan gestopt worden
   - Elke afbeelding heeft een ALT tekst
 - Sommige afbeeldingen hebben een animatie
+- Geen duidelijke h1
 
 </details>
 
