@@ -280,7 +280,7 @@ Ook weet ik inmiddels een beetje hoe ik @media kan gebruiken en vind ik het leuk
   Korte omschrijving met plaatjes
 
 Mijn website
-   <img src="readme-images/afbeelding-3.png" width="375px" aalt="tekst op video">
+   <img src="readme-images/gehelewebsite.png" width="375px" aalt="tekst op video">
 
 Snicker website
   <img src="readme-images/afbeelding-3.png" width="375px" aalt="tekst op video">
