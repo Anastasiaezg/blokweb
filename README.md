@@ -306,5 +306,6 @@ Op mijn eigen site heb ik de secties onder elkaar geplaatst, wat er anders uitzi
  2. Hamburger menu hulp gekregen van de derde jaar.
  3. Oefening van Code pen die we in de les hebben gekregen
  4. Hulp van Studentenassistent van Maya en David
+ 5. isibility: hidden; komt van chat.gtp "hoe zorg ik ervoor dat mijn hamburgermenu niet steeds meebeweegt?
 
 </details>
