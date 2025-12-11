@@ -121,6 +121,12 @@ header li a:hover {
   color: var(--background-color);
 }
 
+a:focus-visible {
+	outline:solid .15em var(--background-button);
+	outline-offset: .2em;
+  border-radius: 2em;
+}
+
 /****************/
 /* Eerste Pagina */
 /****************/
@@ -192,7 +198,6 @@ section:nth-of-type(2) h2 {
   color: var(--color-text);
   font-size: 4em;
   text-transform: uppercase;
-  margin: 0;
 }
 
 section:nth-of-type(2) span {
@@ -417,10 +422,6 @@ figure img {
   margin-bottom: -2em;
 }
 
-.secondpage section:nth-of-type(4) {
-  align-items: start;
-}
-
 .secondpage section:nth-of-type(3),
 .secondpage section:nth-of-type(4),
 .secondpage section:nth-of-type(5),
@@ -430,7 +431,6 @@ figure img {
   padding: 2em;
   gap: 1.5em;
 }
-
 
 .secondpage img {
     transition: .5s;
